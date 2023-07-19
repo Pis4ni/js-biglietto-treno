@@ -25,6 +25,8 @@ Questo richiederà un minimo di ricerca.
 - calcolo il prezzo esclusivamente sulla base della distanza/prezzo
 - immagazzino il valore del prezzo parziale
 - immagazzino il valore dello sconto da sottrarre al prezzo parziale
+- immagazzino il valore di quale sconto verrà applicato
+
 
     - **SE** l' età del richiedente è inferiore alla maggiore età
         - applico uno sconto del 20% sul prezzo totale del bilietto
