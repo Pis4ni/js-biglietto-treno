@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    background: rgb(179,255,239);
+    background: linear-gradient(180deg, rgba(179,255,239,1) 0%, rgba(255,255,255,1) 50%, rgba(179,255,239,1) 100%);
+}
+
+.container{
+    height: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    font-size: 1rem;
+    text-align: center;
+    color:  rgb(105, 168, 255);
+    border: 2px solid rgb(105, 168, 255) ;
+    border-radius: 15px;
+    padding: 3rem;
+}
+
