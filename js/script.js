@@ -14,10 +14,38 @@ const discountMinor = 20
 const discountMajor = 40 
 
 /* chiedo all' utente quanti chilometri ha intenzione di percorrere */
-const userDistance = prompt("Please enter your distance", "45")
+let userDistance;
+while (true) {
+  userDistance = prompt("please enter your distance", "100");
+  if (userDistance === null || userDistance.trim() === "") {
+    /* Se l'utente ha cliccato "Annulla" o ha lasciato vuoto il campo, esci dal ciclo*/
+    break;
+  }
+  
+  const distanceNumber = parseFloat(userDistance);
+  if (!isNaN(distanceNumber)) {
+    /* Se l'input dell'utente è un numero, esci dal ciclo*/
+    userDistance = distanceNumber;
+    break;
+  }
+}
 
 /* chiedo all' utente la sua età */
-const userAge = prompt("Please enter your age", "45")
+let userAge;
+while (true) {
+  userAge = prompt("please enter your age", "50");
+  if (userAge === null || userAge.trim() === "") {
+    /* Se l'utente ha cliccato "Annulla" o ha lasciato vuoto il campo, esci dal ciclo*/
+    break;
+  }
+  
+  const ageNumber = parseFloat(userAge);
+  if (!isNaN(ageNumber)) {
+    /* Se l'input dell'utente è un numero, esci dal ciclo*/
+    userDistance = ageNumber;
+    break;
+  }
+}
 
 /* calcolo il prezzo esclusivamente sulla base della distanza/prezzo */
 let initPrice = costKm * userDistance
