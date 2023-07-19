@@ -1,14 +1,20 @@
 /* immagazzino il costo/km */
 const costKm = 0.21
+
 /* immagazzino il valore della maggiore età */
 const adult = 18
+
 /* immagazzino il valore dell' età pensionabile */
 const retairee = 65
+
 /* chiedo all' utente quanti chilometri ha intenzione di percorrere */
+const userDistance = prompt("Please enter your distance", "45")
 
 /* chiedo all' utente la sua età */
+const userDistance = prompt("Please enter your age", "45")
 
 /* calcolo il prezzo esclusivamente sulla base della distanza/prezzo */
+
 
 /* SE l' età del richiedente è inferiore alla maggiore età */
 
