@@ -1,5 +1,5 @@
 /* immagazzino il costo/km */
-const costKm = 0,21
+const costKm = 0.21
 /* immagazzino il valore della maggiore età */
 const adult = 18
 /* immagazzino il valore dell' età pensionabile */
