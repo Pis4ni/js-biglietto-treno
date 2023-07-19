@@ -23,10 +23,14 @@ Questo richiederà un minimo di ricerca.
 - chiedo all' utente quanti chilometri ha intenzione di percorrere
 - chiedo all' utente la sua età
 - calcolo il prezzo esclusivamente sulla base della distanza/prezzo
+- immagazzino il valore del prezzo parziale
+- immagazzino il valore dello sconto da sottrarre al prezzo parziale
+
     - **SE** l' età del richiedente è inferiore alla maggiore età
         - applico uno sconto del 20% sul prezzo totale del bilietto
     - **ALTRIMENTI** **SE** l' età è compresa tra la maggiore e l' età pensionabile 
         - non applico nessuno sconto
     - **ALTRIMENTI** 
         - applico uno sconto pari al 40%
+- mostro a schermo il risultato delle varie operazioni
 - fine.
