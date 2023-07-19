@@ -18,6 +18,8 @@ Questo richiederà un minimo di ricerca.
 - immagazzino il costo/km
 - immagazzino il valore della maggiore età
 - immagazzino il valore dell' età pensionabile
+- immagazzino il valore dello sconto per maggiore età
+- immagazzino il valore dello sconto per età pensionabile
 - chiedo all' utente quanti chilometri ha intenzione di percorrere
 - chiedo all' utente la sua età
 - calcolo il prezzo esclusivamente sulla base della distanza/prezzo
